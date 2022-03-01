@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      href="fontawesome5/fontawesome-free-5.15.3-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="fontawesome5/fontawesome-free-5.15.3-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="todo-wrapper">
+        <nav>
+          <div class="hamburger"><i class="fas fa-bars bars"></i></div>
+          <div class="name-container">
+            <select class="days">
+              <option value="">--Days of the Week--</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thurday">Thursday</option>
+              <option value="Friday">Friday</option>
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+            </select>
+          </div>
+          <div class="title">
+            <h2 class="title-text">Todo List</h2>
+          </div>
+        </nav>
+        <div class="todo-content">
+          <div class="todo-list"></div>
+          <div class="new-task-wrapper">
+            <div class="new-task-button">
+              <p>+ New Task</p>
+            </div>
+          </div>
+          <div class="modal">
+            <input class="taskinput" type="text" placeholder="Enter Todo" />
+            <input type="button" class="addtask" value="Add New Task" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
