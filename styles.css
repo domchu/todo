@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #a7a6a4;
+}
+
+.todo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+nav {
+  background-color: #af7eeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.todo-wrapper {
+  background-color: aquamarine;
+  width: 400px;
+}
+
+.bars {
+  color: #fff;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.title-text {
+  color: #fff;
+}
+
+.hamburger,
+.title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.taskinput {
+  width: 200px;
+  height: 30px;
+  border: 1px grey dotted;
+  margin: 10px 13px;
+}
+
+.addtask,
+.new-task-button p {
+  border: unset;
+  border: 1px solid #af7eeb;
+  padding: 5px;
+  background: #af7eeb;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todo-content {
+  position: relative;
+  border-color: #fff;
+  min-height: 70px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.new-task-button {
+  border-color: #af7eeb;
+  border-radius: 20px;
+  width: 120px;
+}
+
+.new-task-button p {
+  color: #fff;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.new-task-wrapper {
+  position: absolute;
+  bottom: -25px;
+  cursor: pointer;
+  left: 35%;
+}
+
+.my-list {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 20px;
+}
+
+.fa {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.list-item {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.fa-trash {
+  padding-left: 160px;
+}
+
+.days {
+  border: 3px solid #fff;
+  background-color: #af7eeb;
+  color: #fff;
+  font-size: 15px;
+}
+
+select {
+  height: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
